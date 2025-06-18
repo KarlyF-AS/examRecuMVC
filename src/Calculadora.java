@@ -15,7 +15,6 @@ public class Calculadora {
         this.multiplicar = multiplicar;
         this.dividir = dividir;
     }
-}
 //getters y setters
     public double getSumar() {
         return sumar;
