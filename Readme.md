@@ -1,14 +1,11 @@
 # Examen recuperación MVC
 ---
-Transforma esta aplicación según la arquitectura MVC vista en clase, sin cambiar la funcionalidad
+## Instrucciones:
+### 1. Cree las clases <code>"Model"</code>, <code>"Controller"</code>, <code>"Calculadora"</code>
+### 2. En la clase <code>Calculadora</code> cree los metodos <code>sumar</code>, <code>restar</code>, <code>multiplicar</code> y <code>dividir</code>
+### 3. En la clase <code>Model</code> cree las funciones <code>sumarNumero</code>, <code>restarNumero</code>, <code>dividirNumero</code> y <code>multiplicarNumero</code> y desde el <code>Controller</code> llamo a las funciones con "Model.metodo(parametros)"
+### 4. Tambien hice la clase <code>App</code> para llamar al controller
+### 5. entre los parametros encotraran un sgeundo parametro "double v" que basicamente es el segundo valor por el cual se va a operar
 
-Valoración:
-
-* Clases por separado
-* Funcionalidad de la vista (20 puntos)
-* Funcionalidad del Controller (20 puntos)
-* Utilización de Clase para guardar datos (como la clase Coche utilizada en clase) (20 puntos)
-  * Coherencia con la clase Model (10 puntos)
-* Realización de commits por cada paso que se realice (10 puntos)
-* Comentarios en el código (5 puntos)
-* Readme justificando la toma de desición y describiendo los beneficios aportados por el cambio de código (15 puntos)
+---
+*Nota: Se agregaron comentarios y javadocs básicos*
