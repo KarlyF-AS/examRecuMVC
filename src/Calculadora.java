@@ -47,4 +47,20 @@ public class Calculadora {
     public void setDividir(double dividir) {
         this.dividir = dividir;
     }
+    //metodos
+    public double suma(double a, double b) {
+        return a + b;
+    }
+    public double resta(double a, double b) {
+        return a - b;
+    }
+    public double multiplicacion(double a, double b) {
+        return a * b;
+    }
+    public double division(double a, double b) {
+        if (b == 0) {
+            System.out.println("No se puede dividir por cero");
+        }
+        return a / b;
+    }
 }
